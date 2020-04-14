@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		327AB1449C2185CA1E1246CE /* Pods_yuehanUnity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yuehanUnity_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6072E259BB0AB6FD16788F /* Pods-yuehanUnity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yuehanUnity_Tests.debug.xcconfig"; path = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		526B2820951B0AB6124A193C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		526B2820951B0AB6124A193C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* yuehanUnity_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuehanUnity_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		6C977447C6C4A89B74882DA2 /* Pods-yuehanUnity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yuehanUnity_Tests.release.xcconfig"; path = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7046A68DF72DDA4558C6F87D /* Pods-yuehanUnity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yuehanUnity_Example.release.xcconfig"; path = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		719AC906FFFBCE5E58DA6C6B /* yuehanUnity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = yuehanUnity.podspec; path = ../yuehanUnity.podspec; sourceTree = "<group>"; };
-		7D4B4C5A7A973D7BCECC5DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		719AC906FFFBCE5E58DA6C6B /* yuehanUnity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = yuehanUnity.podspec; path = ../yuehanUnity.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D4B4C5A7A973D7BCECC5DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D41BEDF86504B1A25BEE783F /* Pods-yuehanUnity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yuehanUnity_Example.debug.xcconfig"; path = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E631622C5168BB3EA37F7193 /* Pods_yuehanUnity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yuehanUnity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				4A6072E259BB0AB6FD16788F /* Pods-yuehanUnity_Tests.debug.xcconfig */,
 				6C977447C6C4A89B74882DA2 /* Pods-yuehanUnity_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/yuehanUnity/yuehanUnity.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yuehanUnity.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

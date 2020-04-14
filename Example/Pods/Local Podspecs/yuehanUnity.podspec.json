@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of yuehanUnity.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yangguangweilou@163.com/yuehanUnity",
+  "homepage": "https://github.com/JohnSmithHY/yuehanUnity",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "yangguangweilou@163.com": "wywlchangbaishan@163.com"
   },
   "source": {
-    "git": "https://github.com/yangguangweilou@163.com/yuehanUnity.git",
+    "git": "https://github.com/JohnSmithHY/yuehanUnity.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "yuehanUnity/Classes/**/*"
+  "source_files": "yuehanUnity/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.7"
+    ]
+  }
 }

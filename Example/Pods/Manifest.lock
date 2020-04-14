@@ -1,15 +1,42 @@
 PODS:
-  - yuehanUnity (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - yuehanUnity (0.1.0):
+    - AFNetworking (~> 2.7)
 
 DEPENDENCIES:
   - yuehanUnity (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   yuehanUnity:
     :path: "../"
 
 SPEC CHECKSUMS:
-  yuehanUnity: d79ef61d93656be34d90eca62356a63c8876e63e
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  yuehanUnity: 61b296c53b40020eb70454185e28398279e0f0ca
 
 PODFILE CHECKSUM: 3b72dfde685a59365c9ceec6dc079c4df56a7c1d
 

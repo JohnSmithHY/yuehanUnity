@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # yuehanUnity
 
 [![CI Status](https://img.shields.io/travis/yangguangweilou@163.com/yuehanUnity.svg?style=flat)](https://travis-ci.org/yangguangweilou@163.com/yuehanUnity)
@@ -28,6 +27,3 @@ yangguangweilou@163.com, wywlchangbaishan@163.com
 ## License
 
 yuehanUnity is available under the MIT license. See the LICENSE file for more info.
-=======
-# yuehanUnity
->>>>>>> 1a36678107c675fff96e789394bfa6533c7581c5
