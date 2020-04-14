@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2644DA2286969AACD986DD81FC46269D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682D453256594D68BFBD0B357B3F69A /* ReplaceMe.m */; };
+		3EC0F7EBEE0871989564DDF7580692DA /* yuehanUnity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5AAC193F2581C62C48801E90CC32B4 /* yuehanUnity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F23FD943EEC8F693A9C16ADECD92300 /* Pods-yuehanUnity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E575B479EEB5D2F427FC4209EC0958C7 /* Pods-yuehanUnity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4381CE09946C83E1E555419C8A50EB97 /* Pods-yuehanUnity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F58236EE762222C47147427FFB4846E3 /* Pods-yuehanUnity_Tests-dummy.m */; };
+		A2CEA972F1EC426C778DFE70D1441088 /* Pods-yuehanUnity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DFAFC464880E2045531A2BAF151854 /* Pods-yuehanUnity_Example-dummy.m */; };
+		B0A1992E58E4B1BD9CA944C31C8C989A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C7AE9CCE0A10D39B2A307940338FE4FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CDFA80AFAB29A1B819283D0DC90CE616 /* Pods-yuehanUnity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5962E81B9CEEA68837169D97187E95B /* Pods-yuehanUnity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1AB01BB744ED7BAD2B6237176E259F8 /* yuehanUnity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE26A8833A5BF28261B93A0849B6E86C /* yuehanUnity-dummy.m */; };
+		EE57240240D7BCE009374C3952F597D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C334E06A93070A143A48EA38A7CB5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3DB6704836A116101E354E74BA9857;
+			remoteInfo = yuehanUnity;
+		};
+		B6C6E7B291836AF693D5DA45B715A1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76310112E7D2DAAD8437D7C7C84F0236;
+			remoteInfo = "Pods-yuehanUnity_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A0B41188F986417B24B9BBD81930F8 /* yuehanUnity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = yuehanUnity.modulemap; sourceTree = "<group>"; };
+		0BE9A85549233C04EEFFA2DFFC2DF1FA /* Pods-yuehanUnity_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yuehanUnity_Example-Info.plist"; sourceTree = "<group>"; };
+		0DEA44D7C9BF9D7D3A987B87AF3FED33 /* yuehanUnity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "yuehanUnity-prefix.pch"; sourceTree = "<group>"; };
+		15CFDD30269DE62962DAAA3DBB4A6700 /* Pods-yuehanUnity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yuehanUnity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EEEB4FB25E7499A791667576342A1F4 /* Pods_yuehanUnity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_yuehanUnity_Tests.framework; path = "Pods-yuehanUnity_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DFAFC464880E2045531A2BAF151854 /* Pods-yuehanUnity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yuehanUnity_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38C72902EDAA40B0432AB991AFF435F9 /* Pods-yuehanUnity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yuehanUnity_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		624E0E23E874676271DAD8EBC30B87B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		656719AB20DA91D155836C835C91F84A /* Pods-yuehanUnity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yuehanUnity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B5AAC193F2581C62C48801E90CC32B4 /* yuehanUnity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "yuehanUnity-umbrella.h"; sourceTree = "<group>"; };
+		71742FA623ACE4FF74C123407DAC360E /* Pods-yuehanUnity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yuehanUnity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7640FB38AA9D7FAB8AB913864339D122 /* Pods_yuehanUnity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_yuehanUnity_Example.framework; path = "Pods-yuehanUnity_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8682D453256594D68BFBD0B357B3F69A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = yuehanUnity/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		95865F41AB7C40B72878C6B4B7A61DFD /* Pods-yuehanUnity_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yuehanUnity_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5962E81B9CEEA68837169D97187E95B /* Pods-yuehanUnity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yuehanUnity_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A9D9E6ACAD615037BFBE5126334C0218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE26A8833A5BF28261B93A0849B6E86C /* yuehanUnity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "yuehanUnity-dummy.m"; sourceTree = "<group>"; };
+		B08322036512895FB041D77EACF2883F /* yuehanUnity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = yuehanUnity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4D40F8AA9C4B5F8F772EFD6B080D07E /* Pods-yuehanUnity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-yuehanUnity_Example.modulemap"; sourceTree = "<group>"; };
+		C8D04C8E642D384B21FF876DDB35A661 /* Pods-yuehanUnity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yuehanUnity_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D1E41681681970A822E84608FC75ABE9 /* Pods-yuehanUnity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yuehanUnity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D600518B7AF6B38139BF3FBC88B386FC /* yuehanUnity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "yuehanUnity-Info.plist"; sourceTree = "<group>"; };
+		DC012A42D93D72E9A7D9AAA271C41C60 /* yuehanUnity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = yuehanUnity.release.xcconfig; sourceTree = "<group>"; };
+		E575B479EEB5D2F427FC4209EC0958C7 /* Pods-yuehanUnity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yuehanUnity_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8DBF109B748A4167E294823E8217105 /* yuehanUnity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = yuehanUnity.debug.xcconfig; sourceTree = "<group>"; };
+		E932B3F61DDF4151CD22CBE8B8C53940 /* Pods-yuehanUnity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yuehanUnity_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFC4B1CA8D0E5F52929462215E825DB1 /* Pods-yuehanUnity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yuehanUnity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F343021D6D986135A82D92EBF706970F /* yuehanUnity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = yuehanUnity.framework; path = yuehanUnity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58236EE762222C47147427FFB4846E3 /* Pods-yuehanUnity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yuehanUnity_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9D8CA62DEBE3CE670C3A01279CF177B /* Pods-yuehanUnity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-yuehanUnity_Tests.modulemap"; sourceTree = "<group>"; };
+		FF1725683139608D1D2B90DAFBF23125 /* Pods-yuehanUnity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yuehanUnity_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117F4A6AAC0DD22C6826DF479B7BE5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE57240240D7BCE009374C3952F597D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E55949F40E94E8B42F12D028656A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A1992E58E4B1BD9CA944C31C8C989A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB12FB3ED72C0F41D6408E344A5B272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AE9CCE0A10D39B2A307940338FE4FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4E194FC70267CB165EDFE4CE14C4C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02A0B41188F986417B24B9BBD81930F8 /* yuehanUnity.modulemap */,
+				AE26A8833A5BF28261B93A0849B6E86C /* yuehanUnity-dummy.m */,
+				D600518B7AF6B38139BF3FBC88B386FC /* yuehanUnity-Info.plist */,
+				0DEA44D7C9BF9D7D3A987B87AF3FED33 /* yuehanUnity-prefix.pch */,
+				6B5AAC193F2581C62C48801E90CC32B4 /* yuehanUnity-umbrella.h */,
+				E8DBF109B748A4167E294823E8217105 /* yuehanUnity.debug.xcconfig */,
+				DC012A42D93D72E9A7D9AAA271C41C60 /* yuehanUnity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/yuehanUnity";
+			sourceTree = "<group>";
+		};
+		113848B71D50E810E67A3D805F5FC1E1 /* yuehanUnity */ = {
+			isa = PBXGroup;
+			children = (
+				8682D453256594D68BFBD0B357B3F69A /* ReplaceMe.m */,
+				21A455A32D6A24E753872238486CC9B8 /* Pod */,
+				0D4E194FC70267CB165EDFE4CE14C4C0 /* Support Files */,
+			);
+			name = yuehanUnity;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21A455A32D6A24E753872238486CC9B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				624E0E23E874676271DAD8EBC30B87B9 /* LICENSE */,
+				A9D9E6ACAD615037BFBE5126334C0218 /* README.md */,
+				B08322036512895FB041D77EACF2883F /* yuehanUnity.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3D35CBEA9850E097AC3F5BAD2B76AD8F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7AFEF625944C89E6AF97C36089EEC /* Pods-yuehanUnity_Example */,
+				BCDBF69CC3A910E0804D1B85C6B65ADE /* Pods-yuehanUnity_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7B7AFEF625944C89E6AF97C36089EEC /* Pods-yuehanUnity_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4D40F8AA9C4B5F8F772EFD6B080D07E /* Pods-yuehanUnity_Example.modulemap */,
+				EFC4B1CA8D0E5F52929462215E825DB1 /* Pods-yuehanUnity_Example-acknowledgements.markdown */,
+				656719AB20DA91D155836C835C91F84A /* Pods-yuehanUnity_Example-acknowledgements.plist */,
+				29DFAFC464880E2045531A2BAF151854 /* Pods-yuehanUnity_Example-dummy.m */,
+				FF1725683139608D1D2B90DAFBF23125 /* Pods-yuehanUnity_Example-frameworks.sh */,
+				0BE9A85549233C04EEFFA2DFFC2DF1FA /* Pods-yuehanUnity_Example-Info.plist */,
+				E575B479EEB5D2F427FC4209EC0958C7 /* Pods-yuehanUnity_Example-umbrella.h */,
+				38C72902EDAA40B0432AB991AFF435F9 /* Pods-yuehanUnity_Example.debug.xcconfig */,
+				E932B3F61DDF4151CD22CBE8B8C53940 /* Pods-yuehanUnity_Example.release.xcconfig */,
+			);
+			name = "Pods-yuehanUnity_Example";
+			path = "Target Support Files/Pods-yuehanUnity_Example";
+			sourceTree = "<group>";
+		};
+		B65E1C78036ACDF176B8ED06B0210494 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				113848B71D50E810E67A3D805F5FC1E1 /* yuehanUnity */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BCDBF69CC3A910E0804D1B85C6B65ADE /* Pods-yuehanUnity_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D8CA62DEBE3CE670C3A01279CF177B /* Pods-yuehanUnity_Tests.modulemap */,
+				D1E41681681970A822E84608FC75ABE9 /* Pods-yuehanUnity_Tests-acknowledgements.markdown */,
+				71742FA623ACE4FF74C123407DAC360E /* Pods-yuehanUnity_Tests-acknowledgements.plist */,
+				F58236EE762222C47147427FFB4846E3 /* Pods-yuehanUnity_Tests-dummy.m */,
+				95865F41AB7C40B72878C6B4B7A61DFD /* Pods-yuehanUnity_Tests-Info.plist */,
+				A5962E81B9CEEA68837169D97187E95B /* Pods-yuehanUnity_Tests-umbrella.h */,
+				15CFDD30269DE62962DAAA3DBB4A6700 /* Pods-yuehanUnity_Tests.debug.xcconfig */,
+				C8D04C8E642D384B21FF876DDB35A661 /* Pods-yuehanUnity_Tests.release.xcconfig */,
+			);
+			name = "Pods-yuehanUnity_Tests";
+			path = "Target Support Files/Pods-yuehanUnity_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B65E1C78036ACDF176B8ED06B0210494 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5F0D25D61237CFD343D907738885FFC /* Products */,
+				3D35CBEA9850E097AC3F5BAD2B76AD8F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5F0D25D61237CFD343D907738885FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7640FB38AA9D7FAB8AB913864339D122 /* Pods_yuehanUnity_Example.framework */,
+				1EEEB4FB25E7499A791667576342A1F4 /* Pods_yuehanUnity_Tests.framework */,
+				F343021D6D986135A82D92EBF706970F /* yuehanUnity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60CC752F4D5015F9C4A89ED1886AA4C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFA80AFAB29A1B819283D0DC90CE616 /* Pods-yuehanUnity_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DEF9D6246674F1E8FD74F53794112F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC0F7EBEE0871989564DDF7580692DA /* yuehanUnity-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24F82A458340265E7C1A2ADD3AC185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23FD943EEC8F693A9C16ADECD92300 /* Pods-yuehanUnity_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E3DB6704836A116101E354E74BA9857 /* yuehanUnity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A03DD3307AF4810EFFDB1262834A2F /* Build configuration list for PBXNativeTarget "yuehanUnity" */;
+			buildPhases = (
+				B1DEF9D6246674F1E8FD74F53794112F /* Headers */,
+				079D901B5E28475E5679C7354B3F5BDD /* Sources */,
+				35E55949F40E94E8B42F12D028656A9F /* Frameworks */,
+				C1F826D5C5450D318F891CA7A194A355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yuehanUnity;
+			productName = yuehanUnity;
+			productReference = F343021D6D986135A82D92EBF706970F /* yuehanUnity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76310112E7D2DAAD8437D7C7C84F0236 /* Pods-yuehanUnity_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9E9E9FB2AEB8BE83B566C9CDD8DFC3 /* Build configuration list for PBXNativeTarget "Pods-yuehanUnity_Example" */;
+			buildPhases = (
+				CE24F82A458340265E7C1A2ADD3AC185 /* Headers */,
+				58CE2CDD6BE7FD2F1E491FB78BD0F055 /* Sources */,
+				FEB12FB3ED72C0F41D6408E344A5B272 /* Frameworks */,
+				723CFC05BD69EF3941CF557B35F5D961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5843CF950DD3B12BC0E57E4FC0F417B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-yuehanUnity_Example";
+			productName = "Pods-yuehanUnity_Example";
+			productReference = 7640FB38AA9D7FAB8AB913864339D122 /* Pods_yuehanUnity_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2A9A084F7BEA464775B8B11E4078CCC /* Pods-yuehanUnity_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E10383B7C513627515AF58BF2A048B /* Build configuration list for PBXNativeTarget "Pods-yuehanUnity_Tests" */;
+			buildPhases = (
+				60CC752F4D5015F9C4A89ED1886AA4C5 /* Headers */,
+				52F6DE4AF19E1A2CF3A9593806C9BA54 /* Sources */,
+				117F4A6AAC0DD22C6826DF479B7BE5CE /* Frameworks */,
+				0DB55C20C2683C823B1FEE253E94D201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036A116FB4B3FD8EE0FC3EEC4B7699D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-yuehanUnity_Tests";
+			productName = "Pods-yuehanUnity_Tests";
+			productReference = 1EEEB4FB25E7499A791667576342A1F4 /* Pods_yuehanUnity_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D5F0D25D61237CFD343D907738885FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76310112E7D2DAAD8437D7C7C84F0236 /* Pods-yuehanUnity_Example */,
+				D2A9A084F7BEA464775B8B11E4078CCC /* Pods-yuehanUnity_Tests */,
+				0E3DB6704836A116101E354E74BA9857 /* yuehanUnity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB55C20C2683C823B1FEE253E94D201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723CFC05BD69EF3941CF557B35F5D961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F826D5C5450D318F891CA7A194A355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079D901B5E28475E5679C7354B3F5BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2644DA2286969AACD986DD81FC46269D /* ReplaceMe.m in Sources */,
+				E1AB01BB744ED7BAD2B6237176E259F8 /* yuehanUnity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F6DE4AF19E1A2CF3A9593806C9BA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4381CE09946C83E1E555419C8A50EB97 /* Pods-yuehanUnity_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CE2CDD6BE7FD2F1E491FB78BD0F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CEA972F1EC426C778DFE70D1441088 /* Pods-yuehanUnity_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036A116FB4B3FD8EE0FC3EEC4B7699D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-yuehanUnity_Example";
+			target = 76310112E7D2DAAD8437D7C7C84F0236 /* Pods-yuehanUnity_Example */;
+			targetProxy = B6C6E7B291836AF693D5DA45B715A1E3 /* PBXContainerItemProxy */;
+		};
+		5843CF950DD3B12BC0E57E4FC0F417B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = yuehanUnity;
+			target = 0E3DB6704836A116101E354E74BA9857 /* yuehanUnity */;
+			targetProxy = 29C334E06A93070A143A48EA38A7CB5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077B7561064060D65F8DE3F6D53A3668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E932B3F61DDF4151CD22CBE8B8C53940 /* Pods-yuehanUnity_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E8018FABA47E7023C4A87268B4E04F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DBF109B748A4167E294823E8217105 /* yuehanUnity.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/yuehanUnity/yuehanUnity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/yuehanUnity/yuehanUnity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/yuehanUnity/yuehanUnity.modulemap";
+				PRODUCT_MODULE_NAME = yuehanUnity;
+				PRODUCT_NAME = yuehanUnity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46001F5BE4267C83E3CEE8F02DC16AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CFDD30269DE62962DAAA3DBB4A6700 /* Pods-yuehanUnity_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6407C8D2B270A22367FBC3B4B87E1F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC012A42D93D72E9A7D9AAA271C41C60 /* yuehanUnity.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/yuehanUnity/yuehanUnity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/yuehanUnity/yuehanUnity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/yuehanUnity/yuehanUnity.modulemap";
+				PRODUCT_MODULE_NAME = yuehanUnity;
+				PRODUCT_NAME = yuehanUnity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FC3AFD424AEB38D340A1870793FBEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D04C8E642D384B21FF876DDB35A661 /* Pods-yuehanUnity_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yuehanUnity_Tests/Pods-yuehanUnity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6FC4CC0E69985389534AC01F997A1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C72902EDAA40B0432AB991AFF435F9 /* Pods-yuehanUnity_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yuehanUnity_Example/Pods-yuehanUnity_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E10383B7C513627515AF58BF2A048B /* Build configuration list for PBXNativeTarget "Pods-yuehanUnity_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46001F5BE4267C83E3CEE8F02DC16AFB /* Debug */,
+				9FC3AFD424AEB38D340A1870793FBEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A03DD3307AF4810EFFDB1262834A2F /* Build configuration list for PBXNativeTarget "yuehanUnity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8018FABA47E7023C4A87268B4E04F9 /* Debug */,
+				6407C8D2B270A22367FBC3B4B87E1F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9E9E9FB2AEB8BE83B566C9CDD8DFC3 /* Build configuration list for PBXNativeTarget "Pods-yuehanUnity_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FC4CC0E69985389534AC01F997A1FD /* Debug */,
+				077B7561064060D65F8DE3F6D53A3668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

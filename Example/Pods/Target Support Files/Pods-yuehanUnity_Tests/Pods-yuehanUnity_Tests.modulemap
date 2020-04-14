@@ -1,0 +1,6 @@
+framework module Pods_yuehanUnity_Tests {
+  umbrella header "Pods-yuehanUnity_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module yuehanUnity {
+  umbrella header "yuehanUnity-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - yuehanUnity (0.1.0)
+
+DEPENDENCIES:
+  - yuehanUnity (from `../`)
+
+EXTERNAL SOURCES:
+  yuehanUnity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  yuehanUnity: d79ef61d93656be34d90eca62356a63c8876e63e
+
+PODFILE CHECKSUM: 3b72dfde685a59365c9ceec6dc079c4df56a7c1d
+
+COCOAPODS: 1.9.1

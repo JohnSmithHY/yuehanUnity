@@ -1,0 +1,22 @@
+{
+  "name": "yuehanUnity",
+  "version": "0.1.0",
+  "summary": "A short description of yuehanUnity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangguangweilou@163.com/yuehanUnity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangguangweilou@163.com": "wywlchangbaishan@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yangguangweilou@163.com/yuehanUnity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "yuehanUnity/Classes/**/*"
+}
