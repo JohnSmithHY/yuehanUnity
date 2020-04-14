@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'yuehanUnity'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of yuehanUnity.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
