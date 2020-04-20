@@ -20,8 +20,14 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - yuehanUnity (0.1.0):
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - yuehanUnity (1.0.0):
     - AFNetworking (~> 2.7)
+    - SVGKit
 
 DEPENDENCIES:
   - yuehanUnity (from `../`)
@@ -29,6 +35,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CocoaLumberjack
+    - SVGKit
 
 EXTERNAL SOURCES:
   yuehanUnity:
@@ -36,7 +44,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  yuehanUnity: 61b296c53b40020eb70454185e28398279e0f0ca
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  yuehanUnity: c8b41ae7d4f619fbe63dfda8be8dd814d13eaabf
 
 PODFILE CHECKSUM: 3b72dfde685a59365c9ceec6dc079c4df56a7c1d
 

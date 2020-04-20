@@ -7,7 +7,7 @@
 //
 
 #import "JCViewController.h"
-
+#import <UIImage+Unity.h>
 @interface JCViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIImage *image = [UIImage unity_imageNamed:@"saomiao" size:CGSizeMake(100, 100)];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

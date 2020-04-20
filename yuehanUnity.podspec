@@ -15,11 +15,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'yuehanUnity/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'yuehanUnity' => ['yuehanUnity/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'yuehanUnity' => ['yuehanUnity/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'AFNetworking', '~> 2.7'
+   s.dependency 'SVGKit'
 end

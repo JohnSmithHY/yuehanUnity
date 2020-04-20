@@ -1,6 +1,6 @@
 {
   "name": "yuehanUnity",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of yuehanUnity.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/JohnSmithHY/yuehanUnity",
@@ -13,16 +13,24 @@
   },
   "source": {
     "git": "https://github.com/JohnSmithHY/yuehanUnity.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "yuehanUnity/Classes/**/*",
+  "resource_bundles": {
+    "yuehanUnity": [
+      "yuehanUnity/Assets/*"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
       "~> 2.7"
+    ],
+    "SVGKit": [
+
     ]
   }
 }

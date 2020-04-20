@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIImage+Unity.h"
+#import "UnityConfig.h"
 #import "yuehanLogUnity.h"
 
 FOUNDATION_EXPORT double yuehanUnityVersionNumber;
